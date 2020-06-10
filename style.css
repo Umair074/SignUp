@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('./Images/backgroud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.singup{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.singup Img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 250px;
+}
+.input_class{
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.input_class input{
+    display: block;
+    margin-top: 35px;
+    width: 400px;
+    height: 30px;
+    background-color: #e6e6e6;
+    border: 1px solid;
+}
+.input_class input::placeholder{
+    padding-left: 10px;
+}
+.Gender_class{
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.button_class{
+    margin-top: 340px;
+    margin-left: 100px;
+}
+.Submit_Button{
+    width: 400px;
+    height: 45px;
+    background-color: #4f92ff;
+    color: white;
+    font-weight: bold;
+}
